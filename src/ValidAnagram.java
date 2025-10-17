@@ -9,11 +9,30 @@ public class ValidAnagram {
             Arrays.sort(s1);
             Arrays.sort(s2);
             return Arrays.equals(s1,s2);
+     //       Optimal one
+//            int arr[] = new int[26];
+//            String str = s.replaceAll(" ","").toLowerCase();;
+//            String str2 = t.replaceAll(" ","").toLowerCase();
+//
+//            for(int i = 0 ; i < str.length() ; i++){
+//                arr[str.charAt(i)-'a']++;
+//            }
+//            for(int i = 0 ; i < str2.length() ; i++){
+//                arr[str2.charAt(i)-'a']--;
+//            }
+//            for(int count :arr){
+//                if(count!=0)
+//                    return false;
+//            }
+//            return true;
 
         }
 
+        }
+
+
     static void main() {
-        System.out.println(isAnagram("madam","adamm"));
+        System.out.println(ValidAnagram.isAnagram("madam","adamm"));
     }
-    }
+
 
