@@ -5,9 +5,9 @@ It helps me track my learning, implement algorithms, and solve problems regularl
 
 ## What's Inside
 
-- **Problem Solutions:** Daily coding challenges from platforms like LeetCode, HackerRank, Codeforces, etc.
-- **Data Structures:** Implementations of arrays, linked lists, stacks, queues, trees, graphs, heaps, and more.
-- **Algorithms:** Sorting, searching, dynamic programming, greedy, backtracking, and other classic algorithms.
+- **Problem Solutions:** Daily coding challenges from leetCode.
+- **Data Structures:** Implementations of arrays, linked lists, stacks, queues and more.
+- **Algorithms:** Sorting, searching and other classic algorithms.
 - **Notes & Explanations:** Short explanations, tips, and insights for better understanding.
 
 ## My Goal
@@ -18,7 +18,7 @@ It helps me track my learning, implement algorithms, and solve problems regularl
 
 ## Language & Tools
 
-- Languages: Java / C++ / Python
+- Languages: Java 
 - Tools: VSCode / IntelliJ / GitHub
 
 ---
