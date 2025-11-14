@@ -1,0 +1,26 @@
+package twoPointers;
+
+import java.util.Collections;
+import java.util.List;
+
+public class CountPair {
+        public int countPairs(List<Integer> nums, int target) {
+            Collections.sort(nums);
+            int i  =0 ,
+                    j = nums.size()-1 ,
+                    count = 0  ;
+            while(i<j){
+                int sum = nums.get(i)+nums.get(j);
+                if(sum<target){
+                    count+=(j-i);
+                    i++;
+                }
+                else{
+                    j--;
+                }
+            }
+            return count;
+
+        }
+    }
+
